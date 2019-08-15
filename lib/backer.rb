@@ -6,6 +6,6 @@ class Backer
   attr_reader :name, :backed_projects
 
   def back_project(project)
-    @back_project << project
+    @backed_project << project
   end
 end
